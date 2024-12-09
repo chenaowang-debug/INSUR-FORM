@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*", "server.ts"],
+  "exclude": ["node_modules", "webpack.config.js"]
+}
